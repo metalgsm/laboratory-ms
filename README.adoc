@@ -1,4 +1,4 @@
-= Laborstory MS
+= Laboratory MS
 : toc:
 : toc-title: Summary
 
