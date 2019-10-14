@@ -1,6 +1,6 @@
 = Laboratory MS
-: toc:
-: toc-title: Summary
+:toc:
+:toc-title: Summary
 
 == Configuration for DEV environment
 Set the following parameter to enable profile _dev_:
