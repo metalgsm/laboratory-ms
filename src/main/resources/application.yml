@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Laboratory MS
+  jackson:
+    deserialization:
+      adjust-dates-to-context-time-zone: false
+      use-big-decimal-for-floats: true
+    serialization:
+      write-dates-as-timestamps: false
+logging:
+  level:
+    com.laboratory-ms-base.web.RequestLoggingFilter: DEBUG
+    com.laboratory-ms-basee.web.ResponseLoggingFilter: DEBUG

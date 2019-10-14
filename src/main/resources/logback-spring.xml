@@ -1,0 +1,18 @@
+<configuration>
+	<jmxConfigurator />
+
+	<appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="net.logstash.logback.encoder.LogstashEncoder">
+			<includeMdcKeyName>ip</includeMdcKeyName>
+			<includeMdcKeyName>method</includeMdcKeyName>
+			<includeMdcKeyName>url</includeMdcKeyName>
+			<includeMdcKeyName>eventLog</includeMdcKeyName>
+			<includeMdcKeyName>durationMillis</includeMdcKeyName>
+		</encoder>
+	</appender>
+
+	<root level="INFO">
+		<appender-ref ref="consoleAppender" />
+	</root>
+
+</configuration>
